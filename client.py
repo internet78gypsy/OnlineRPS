@@ -1,7 +1,7 @@
 import socket
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host = '192.168.170.109'
+host = input("Enter host's address: ")
 port = 5000
 f = "utf-8"
 
@@ -32,3 +32,4 @@ while True:
     print(r_msg)
 
 s.close()
+
