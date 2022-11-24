@@ -1,7 +1,7 @@
 import socket
 import threading
 
-host = '192.168.170.109'
+host = socket.gethostbyname(socket.gethostname())
 port = 5000
 f = 'utf-8'
 players = ['', '']
